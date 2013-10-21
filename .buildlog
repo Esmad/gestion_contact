@@ -1,0 +1,2685 @@
+---
+build.dart --machine --changed=README.md
+Total time                                                   -- 160 ms
+build.dart finished [1310 ms]
+
+---
+build.dart --machine --changed=README.md
+Total time                                                   -- 200 ms
+build.dart finished [1360 ms]
+
+---
+build.dart --machine --changed=README.md
+Total time                                                   -- 170 ms
+build.dart finished [1200 ms]
+
+---
+build.dart --machine --full
+[{"method":"error","params":{"file":"web\\crud\\person_add.html","message":"unable to open file \"web\\crud\\category_add.dart\"","line":32,"charStart":1027,"charEnd":1083}}]
+[{"method":"error","params":{"file":"web\\crud\\person_edit.html","message":"please provide a class definition for PersonEdit:\n import 'dart:html';\r\n\r\nimport 'package:simple_dart_form/simple_contact_form.dart';\r\nimport 'package:web_ui/web_ui.dart';\r\n\r\n\r\n\r\nclass CategoryEdit extends WebComponent {\r\n  PersonList personList;\r\n  Person person;\r\n\r\n  update() {\r\n    InputElement nom = query(\"#edit-person-nom\");\r\n    InputElement prenom = query(\"#edit-person-prenom\");\r\n    InputElement email = query(\"#edit-person-email\");\r\n    InputElement adresse = query(\"#edit-person-adresse\");\r\n    person.firstName = nom.value;\r\n    person.lastName = prenom.value;\r\n    person.eMail = email.value;\r\n    person.adresse = adresse.value;\r\n    personList.order();\r\n    var personTable = query('#person-table').xtag;\r\n    personTable.showEditPerson = false;\r\n  }\r\n}","line":10,"charStart":121,"charEnd":164}}]
+Total time spent on web/simple_dart_form.html                -- 2060 ms
+Total time                                                   -- 2293 ms
+build.dart finished [3944 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.html
+[{"method":"error","params":{"file":"web\\crud\\person_edit.html","message":"please provide a class definition for PersonEdit:\n import 'dart:html';\r\n\r\nimport 'package:simple_dart_form/simple_contact_form.dart';\r\nimport 'package:web_ui/web_ui.dart';\r\n\r\n\r\n\r\nclass CategoryEdit extends WebComponent {\r\n  PersonList personList;\r\n  Person person;\r\n\r\n  update() {\r\n    InputElement nom = query(\"#edit-person-nom\");\r\n    InputElement prenom = query(\"#edit-person-prenom\");\r\n    InputElement email = query(\"#edit-person-email\");\r\n    InputElement adresse = query(\"#edit-person-adresse\");\r\n    person.firstName = nom.value;\r\n    person.lastName = prenom.value;\r\n    person.eMail = email.value;\r\n    person.adresse = adresse.value;\r\n    personList.order();\r\n    var personTable = query('#person-table').xtag;\r\n    personTable.showEditPerson = false;\r\n  }\r\n}","line":10,"charStart":121,"charEnd":164}}]
+Total time spent on web/simple_dart_form.html                -- 1490 ms
+Total time                                                   -- 1660 ms
+build.dart finished [2956 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 2090 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2312 ms
+build.dart finished [3412 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.html
+Total time spent on web/simple_dart_form.html                -- 1900 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2080 ms
+build.dart finished [3200 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   -- 110 ms
+build.dart finished [1512 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/simple_dart_form.html                -- 3198 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 3451 ms
+build.dart finished [5739 ms]
+
+---
+build.dart --machine --changed=lib\model\person_entities.dart
+Total time spent on web/simple_dart_form.html                -- 1750 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 1920 ms
+build.dart finished [2910 ms]
+
+---
+build.dart --machine --changed=web\css\simple_dart_form.css --removed=web\simple_dart_form.css
+Total time                                                   -- 150 ms
+build.dart finished [1254 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.html
+Total time spent on web/simple_dart_form.html                -- 1940 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2120 ms
+build.dart finished [3160 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.html
+[{"method":"error","params":{"file":"web/simple_dart_form.html","message":"unable to open file \"web\\simple_contact_form.dart\"","line":22,"charStart":450,"charEnd":513}}]
+Total time spent on web/simple_dart_form.html                -- 1702 ms
+Total time                                                   -- 1892 ms
+build.dart finished [3142 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.html
+Total time spent on web/simple_dart_form.html                -- 1932 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2092 ms
+build.dart finished [3072 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/simple_dart_form.html                -- 2244 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2444 ms
+build.dart finished [3860 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 2084 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2254 ms
+build.dart finished [3374 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 1910 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2110 ms
+build.dart finished [3280 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 1920 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2090 ms
+build.dart finished [3210 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 2238 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2428 ms
+build.dart finished [3588 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 2040 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2250 ms
+build.dart finished [3694 ms]
+
+---
+build.dart --machine --changed=lib\model\contact_form_model.dart
+Total time spent on web/simple_dart_form.html                -- 1900 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2080 ms
+build.dart finished [3554 ms]
+
+---
+build.dart --machine --changed=lib\model\person_entities.dart
+Total time spent on web/simple_dart_form.html                -- 2120 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2380 ms
+build.dart finished [3850 ms]
+
+---
+build.dart --machine --changed=lib\model\person_entities.dart
+Total time spent on web/simple_dart_form.html                -- 2010 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2200 ms
+build.dart finished [3450 ms]
+
+---
+build.dart --machine --changed=lib\model\person_entities.dart
+Total time spent on web/simple_dart_form.html                -- 1870 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2040 ms
+build.dart finished [3120 ms]
+
+---
+build.dart --machine --changed=lib\model\person_entities.dart
+Total time spent on web/simple_dart_form.html                -- 1860 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2030 ms
+build.dart finished [3060 ms]
+
+---
+build.dart --machine --changed=lib\model\person_entities.dart
+Total time spent on web/simple_dart_form.html                -- 2010 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2190 ms
+build.dart finished [3220 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 2070 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2250 ms
+build.dart finished [3480 ms]
+
+---
+build.dart --machine --changed=lib\model\person_entities.dart
+Total time spent on web/simple_dart_form.html                -- 1870 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2060 ms
+build.dart finished [3190 ms]
+
+---
+build.dart --machine --changed=lib\model\contact_form_model.dart
+Total time spent on web/simple_dart_form.html                -- 1920 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2110 ms
+build.dart finished [3344 ms]
+
+---
+build.dart --machine --changed=lib\model\person_entities.dart
+Total time spent on web/simple_dart_form.html                -- 1900 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2080 ms
+build.dart finished [3150 ms]
+
+---
+build.dart --machine --changed=test\model\form_model_test.dart
+Total time spent on web/simple_dart_form.html                -- 1800 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 1980 ms
+build.dart finished [3280 ms]
+
+---
+build.dart --machine --changed=test\model\form_model_test.dart
+Total time spent on web/simple_dart_form.html                -- 1900 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2121 ms
+build.dart finished [3221 ms]
+
+---
+build.dart --machine --changed=test\model\form_model_test.dart
+Total time spent on web/simple_dart_form.html                -- 1860 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2030 ms
+build.dart finished [3254 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 1910 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2100 ms
+build.dart finished [3140 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 1860 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2040 ms
+build.dart finished [3156 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 1950 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2130 ms
+build.dart finished [3140 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 1880 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2040 ms
+build.dart finished [3080 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 1870 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2050 ms
+build.dart finished [3230 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 1810 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2030 ms
+build.dart finished [3050 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 1830 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2020 ms
+build.dart finished [3090 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+Total time spent on web/simple_dart_form.html                -- 1910 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2090 ms
+build.dart finished [3090 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   -- 110 ms
+build.dart finished [1644 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/simple_dart_form.html                -- 4146 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 4643 ms
+build.dart finished [6352 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.dart
+Total time spent on web/simple_dart_form.html                -- 2030 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2301 ms
+build.dart finished [3774 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.dart
+Total time spent on web/simple_dart_form.html                -- 1880 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2084 ms
+build.dart finished [3555 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.html
+Total time spent on web/simple_dart_form.html                -- 2174 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2364 ms
+build.dart finished [3504 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.html
+Total time spent on web/simple_dart_form.html                -- 1920 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2100 ms
+build.dart finished [3220 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.dart
+Total time spent on web/simple_dart_form.html                -- 1880 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2090 ms
+build.dart finished [3360 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.html
+Total time spent on web/simple_dart_form.html                -- 1992 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2187 ms
+build.dart finished [3345 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1955 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2161 ms
+build.dart finished [3382 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 2568 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2773 ms
+build.dart finished [4023 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.dart
+Total time spent on web/simple_dart_form.html                -- 1924 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2118 ms
+build.dart finished [3212 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.dart
+Total time spent on web/simple_dart_form.html                -- 1988 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2180 ms
+build.dart finished [3242 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 2320 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2500 ms
+build.dart finished [3692 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1868 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2036 ms
+build.dart finished [3139 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.html
+Total time spent on web/simple_dart_form.html                -- 2074 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2269 ms
+build.dart finished [3510 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.html
+Total time spent on web/simple_dart_form.html                -- 1852 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2036 ms
+build.dart finished [3068 ms]
+
+---
+build.dart --machine --clean
+Total time                                                   -- 118 ms
+build.dart finished [1609 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/simple_dart_form.html                -- 3872 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 4198 ms
+build.dart finished [5685 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.html
+Total time spent on web/simple_dart_form.html                -- 1820 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 1993 ms
+build.dart finished [2977 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/simple_dart_form.html                -- 1896 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2063 ms
+build.dart finished [3099 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1903 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2080 ms
+build.dart finished [3133 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 2097 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2277 ms
+build.dart finished [3403 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 2035 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2238 ms
+build.dart finished [3253 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.html
+Total time spent on web/simple_dart_form.html                -- 1981 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2215 ms
+build.dart finished [3296 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/simple_dart_form.html                -- 4136 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 4457 ms
+build.dart finished [6267 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1815 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 1991 ms
+build.dart finished [3058 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.html
+Total time spent on web/simple_dart_form.html                -- 1935 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2133 ms
+build.dart finished [3253 ms]
+
+---
+build.dart --machine --changed=lib\model\contact_form_model.dart
+Total time spent on web/simple_dart_form.html                -- 1897 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2067 ms
+build.dart finished [3143 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.dart
+Total time spent on web/simple_dart_form.html                -- 1970 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2190 ms
+build.dart finished [3472 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.html
+Total time spent on web/simple_dart_form.html                -- 1902 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2084 ms
+build.dart finished [3126 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.html
+Total time spent on web/simple_dart_form.html                -- 1933 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2106 ms
+build.dart finished [3262 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1960 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2182 ms
+build.dart finished [3382 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.dart
+Total time spent on web/simple_dart_form.html                -- 2406 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2650 ms
+build.dart finished [3911 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.dart
+Total time spent on web/simple_dart_form.html                -- 2154 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2337 ms
+build.dart finished [3449 ms]
+
+---
+build.dart --machine --changed=test\model\form_model_test.dart
+Total time spent on web/simple_dart_form.html                -- 1923 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2101 ms
+build.dart finished [3297 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.dart
+Total time spent on web/simple_dart_form.html                -- 1915 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2179 ms
+build.dart finished [3272 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.dart
+Total time spent on web/simple_dart_form.html                -- 1800 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 1970 ms
+build.dart finished [3022 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.dart
+Total time spent on web/simple_dart_form.html                -- 1881 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2066 ms
+build.dart finished [3215 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.dart
+Total time spent on web/simple_dart_form.html                -- 1888 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2054 ms
+build.dart finished [3122 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.dart
+Total time spent on web/simple_dart_form.html                -- 1843 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2010 ms
+build.dart finished [3076 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.html
+Total time spent on web/simple_dart_form.html                -- 1957 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2141 ms
+build.dart finished [3219 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.dart
+Total time spent on web/simple_dart_form.html                -- 1838 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2011 ms
+build.dart finished [3023 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.dart
+Total time spent on web/simple_dart_form.html                -- 2126 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2314 ms
+build.dart finished [3768 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1914 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2100 ms
+build.dart finished [3346 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1953 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2132 ms
+build.dart finished [3196 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.html
+Total time spent on web/simple_dart_form.html                -- 2067 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2364 ms
+build.dart finished [3516 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1872 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2066 ms
+build.dart finished [3118 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 2004 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2220 ms
+build.dart finished [3369 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.dart
+Total time spent on web/simple_dart_form.html                -- 2059 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2314 ms
+build.dart finished [3365 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.dart
+Total time spent on web/simple_dart_form.html                -- 1950 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2214 ms
+build.dart finished [3476 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1970 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2155 ms
+build.dart finished [3313 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1949 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2124 ms
+build.dart finished [3251 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1984 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2188 ms
+build.dart finished [3430 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 1953 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2167 ms
+build.dart finished [3249 ms]
+
+---
+build.dart --machine --changed=web\crud\person_edit.dart
+Total time spent on web/simple_dart_form.html                -- 2205 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\simple_dart_form.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2410 ms
+build.dart finished [3716 ms]
+
+---
+build.dart --machine --changed=web\css\style.css
+Total time                                                   -- 164 ms
+build.dart finished [1499 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.html
+Total time spent on web/simple_dart_form.html                -- 2215 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2418 ms
+build.dart finished [3633 ms]
+
+---
+build.dart --machine --changed=web\css\style.css
+Total time                                                   -- 149 ms
+build.dart finished [1313 ms]
+
+---
+build.dart --machine --changed=web\css\style.css
+Total time                                                   -- 167 ms
+build.dart finished [1319 ms]
+
+---
+build.dart --machine --changed=web\css\style.css
+Total time                                                   -- 167 ms
+build.dart finished [1317 ms]
+
+---
+build.dart --machine --changed=web\css\style.css
+Total time                                                   -- 161 ms
+build.dart finished [1352 ms]
+
+---
+build.dart --machine --changed=web\css\style.css
+Total time                                                   -- 171 ms
+build.dart finished [1321 ms]
+
+---
+build.dart --machine --changed=web\css\style.css
+Total time                                                   -- 159 ms
+build.dart finished [1349 ms]
+
+---
+build.dart --machine --changed=web\css\style.css
+Total time                                                   -- 149 ms
+build.dart finished [1311 ms]
+
+---
+build.dart --machine --changed=web\css\style.css
+Total time                                                   -- 208 ms
+build.dart finished [1367 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.dart
+Total time spent on web/simple_dart_form.html                -- 2057 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2244 ms
+build.dart finished [3337 ms]
+
+---
+build.dart --machine --changed=web\css\style.css
+Total time                                                   -- 155 ms
+build.dart finished [1312 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.html
+Total time spent on web/simple_dart_form.html                -- 1914 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2084 ms
+build.dart finished [3211 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.html
+Total time spent on web/simple_dart_form.html                -- 2049 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2229 ms
+build.dart finished [3369 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.html
+Total time spent on web/simple_dart_form.html                -- 1953 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2135 ms
+build.dart finished [3268 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.dart
+Total time spent on web/simple_dart_form.html                -- 1911 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2087 ms
+build.dart finished [3087 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.dart
+Total time spent on web/simple_dart_form.html                -- 2045 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2257 ms
+build.dart finished [3347 ms]
+
+---
+build.dart --machine --changed=web\crud\person_table.html
+Total time spent on web/simple_dart_form.html                -- 1864 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2039 ms
+build.dart finished [3083 ms]
+
+---
+build.dart --machine --full
+Unable to open file: D:/DartWorkspace/simple_dart_form/packages/web_ui/component_build.dart'file:///D:/DartWorkspace/simple_dart_form/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [272 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   -- 194 ms
+build.dart finished [1645 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   -- 188 ms
+build.dart finished [1666 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/simple_dart_form.html                -- 2553 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 2742 ms
+build.dart finished [4747 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/simple_dart_form.html                -- 3607 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 3951 ms
+build.dart finished [5664 ms]
+
+---
+build.dart --machine --changed=README.md
+Total time                                                   -- 148 ms
+build.dart finished [1213 ms]
+
+---
+build.dart --machine --changed=doc\source.txt
+Total time                                                   -- 141 ms
+build.dart finished [1230 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/simple_dart_form.html                -- 598 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 664 ms
+build.dart finished [1126 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/simple_dart_form.html                -- 1002 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 1073 ms
+build.dart finished [1688 ms]
+
+---
+build.dart --machine --changed=doc\doc\dart-polymer\dart-polymer.txt --changed=doc\doc\git\git.txt --changed=do...
+Total time                                                   --  45 ms
+build.dart finished [391 ms]
+
+---
+build.dart --machine --removed=doc\doc\dart-polymer\dart-polymer.txt --removed=doc\doc\git\git.txt --removed=do...
+Total time                                                   --  50 ms
+build.dart finished [386 ms]
+
+---
+build.dart --machine --changed=doc\dart-polymer\dart-polymer.txt
+Total time                                                   --  46 ms
+build.dart finished [394 ms]
+
+---
+build.dart --machine --changed=doc\git\git.txt
+Total time                                                   --  45 ms
+build.dart finished [389 ms]
+
+---
+build.dart --machine --changed=doc\pub\pub.txt
+Total time                                                   --  46 ms
+build.dart finished [394 ms]
+
+---
+build.dart --machine --removed=doc\source.txt
+Total time                                                   --  52 ms
+build.dart finished [442 ms]
+
+---
+build.dart --machine --changed=doc\dart\dart-polymer.txt --removed=doc\dart-polymer\dart-polymer.txt
+Total time                                                   --  45 ms
+build.dart finished [397 ms]
+
+---
+build.dart --machine --changed=doc\dart\dart.txt --removed=doc\dart\dart-polymer.txt
+Total time                                                   --  45 ms
+build.dart finished [404 ms]
+
+---
+build.dart --machine --full
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\dartlero\\dartlero.dart\"","line":4,"charStart":44,"charEnd":84}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 732 ms
+Total time                                                   -- 811 ms
+build.dart finished [1252 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/simple_dart_form.html                -- 978 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\person_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\style.css"}}]
+[{"method":"mapping","params":{"from":"web/simple_dart_form.html","to":"web\\out\\simple_dart_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\simple_dart_form.html"}}]
+Total time                                                   -- 1042 ms
+build.dart finished [1543 ms]
+
+---
+build.dart --machine --changed=lib\contact.dart --removed=lib\simple_contact_form.dart
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 479 ms
+Total time                                                   -- 530 ms
+build.dart finished [878 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.dart
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 501 ms
+Total time                                                   -- 562 ms
+build.dart finished [949 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  45 ms
+build.dart finished [394 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.dart
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 498 ms
+Total time                                                   -- 551 ms
+build.dart finished [941 ms]
+
+---
+build.dart --machine --changed=web\crud\person_add.html
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"error","params":{"file":"web\\crud\\person_add.html","message":"unable to open file \"web\\crud\\contact_add.dart\"","line":32,"charStart":1004,"charEnd":1059}}]
+Total time spent on web/simple_dart_form.html                -- 451 ms
+Total time                                                   -- 505 ms
+build.dart finished [881 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_add.dart --removed=web\crud\person_add.dart
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 457 ms
+Total time                                                   -- 508 ms
+build.dart finished [853 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_add.html --removed=web\crud\person_add.html
+[{"method":"error","params":{"file":"web\\crud\\person_table.html","message":"unable to open file \"web\\crud\\person_add.html\"","line":6,"charStart":69,"charEnd":111}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web\\crud\\person_table.html","message":"custom element with tag name person-add not found.","line":13,"charStart":295,"charEnd":349}}]
+Total time spent on web/simple_dart_form.html                -- 457 ms
+Total time                                                   -- 510 ms
+build.dart finished [874 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_edit.dart --removed=web\crud\person_edit.dart
+[{"method":"error","params":{"file":"web\\crud\\person_table.html","message":"unable to open file \"web\\crud\\person_add.html\"","line":6,"charStart":69,"charEnd":111}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"error","params":{"file":"web\\crud\\person_edit.html","message":"unable to open file \"web\\crud\\person_edit.dart\"","line":33,"charStart":1062,"charEnd":1117}}]
+[{"method":"warning","params":{"file":"web\\crud\\person_table.html","message":"custom element with tag name person-add not found.","line":13,"charStart":295,"charEnd":349}}]
+Total time spent on web/simple_dart_form.html                -- 454 ms
+Total time                                                   -- 507 ms
+build.dart finished [884 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_edit.html --removed=web\crud\person_edit.html
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"error","params":{"file":"web\\crud\\person_table.html","message":"unable to open file \"web\\crud\\person_add.html\"","line":6,"charStart":69,"charEnd":111}}]
+[{"method":"error","params":{"file":"web\\crud\\person_table.html","message":"unable to open file \"web\\crud\\person_edit.html\"","line":7,"charStart":116,"charEnd":159}}]
+[{"method":"warning","params":{"file":"web\\crud\\person_table.html","message":"custom element with tag name person-add not found.","line":13,"charStart":295,"charEnd":349}}]
+[{"method":"warning","params":{"file":"web\\crud\\person_table.html","message":"custom element with tag name person-edit not found.","line":18,"charStart":442,"charEnd":531}}]
+Total time spent on web/simple_dart_form.html                -- 422 ms
+Total time                                                   -- 473 ms
+build.dart finished [837 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_table.dart --removed=web\crud\person_table.dart
+[{"method":"error","params":{"file":"web\\crud\\person_table.html","message":"unable to open file \"web\\crud\\person_add.html\"","line":6,"charStart":69,"charEnd":111}}]
+[{"method":"error","params":{"file":"web\\crud\\person_table.html","message":"unable to open file \"web\\crud\\person_edit.html\"","line":7,"charStart":116,"charEnd":159}}]
+[{"method":"error","params":{"file":"web\\crud\\person_table.html","message":"unable to open file \"web\\crud\\person_table.dart\"","line":52,"charStart":1471,"charEnd":1527}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web\\crud\\person_table.html","message":"custom element with tag name person-add not found.","line":13,"charStart":295,"charEnd":349}}]
+[{"method":"warning","params":{"file":"web\\crud\\person_table.html","message":"custom element with tag name person-edit not found.","line":18,"charStart":442,"charEnd":531}}]
+Total time spent on web/simple_dart_form.html                -- 436 ms
+Total time                                                   -- 486 ms
+build.dart finished [840 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_table.html --removed=web\crud\person_table.html
+[{"method":"error","params":{"file":"web/simple_dart_form.html","message":"unable to open file \"web\\crud\\person_table.html\"","line":9,"charStart":223,"charEnd":275}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web/simple_dart_form.html","message":"custom element with tag name person-table not found.","line":18,"charStart":412,"charEnd":486}}]
+Total time spent on web/simple_dart_form.html                -- 391 ms
+Total time                                                   -- 441 ms
+build.dart finished [800 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_table.dart
+[{"method":"error","params":{"file":"web/simple_dart_form.html","message":"unable to open file \"web\\crud\\person_table.html\"","line":9,"charStart":223,"charEnd":275}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web/simple_dart_form.html","message":"custom element with tag name person-table not found.","line":18,"charStart":412,"charEnd":486}}]
+Total time spent on web/simple_dart_form.html                -- 389 ms
+Total time                                                   -- 442 ms
+build.dart finished [821 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_table.html
+[{"method":"error","params":{"file":"web/simple_dart_form.html","message":"unable to open file \"web\\crud\\person_table.html\"","line":9,"charStart":223,"charEnd":275}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web/simple_dart_form.html","message":"custom element with tag name person-table not found.","line":18,"charStart":412,"charEnd":486}}]
+Total time spent on web/simple_dart_form.html                -- 402 ms
+Total time                                                   -- 456 ms
+build.dart finished [815 ms]
+
+---
+build.dart --machine --changed=lib\contact.dart
+[{"method":"error","params":{"file":"web/simple_dart_form.html","message":"unable to open file \"web\\crud\\person_table.html\"","line":9,"charStart":223,"charEnd":275}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web/simple_dart_form.html","message":"custom element with tag name person-table not found.","line":18,"charStart":412,"charEnd":486}}]
+Total time spent on web/simple_dart_form.html                -- 403 ms
+Total time                                                   -- 456 ms
+build.dart finished [801 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_add.dart
+[{"method":"error","params":{"file":"web/simple_dart_form.html","message":"unable to open file \"web\\crud\\person_table.html\"","line":9,"charStart":223,"charEnd":275}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web/simple_dart_form.html","message":"custom element with tag name person-table not found.","line":18,"charStart":412,"charEnd":486}}]
+Total time spent on web/simple_dart_form.html                -- 402 ms
+Total time                                                   -- 454 ms
+build.dart finished [815 ms]
+
+---
+build.dart --machine --changed=test\model\form_model_test.dart
+[{"method":"error","params":{"file":"web/simple_dart_form.html","message":"unable to open file \"web\\crud\\person_table.html\"","line":9,"charStart":223,"charEnd":275}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web/simple_dart_form.html","message":"custom element with tag name person-table not found.","line":18,"charStart":412,"charEnd":486}}]
+Total time spent on web/simple_dart_form.html                -- 411 ms
+Total time                                                   -- 462 ms
+build.dart finished [816 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_edit.html
+[{"method":"error","params":{"file":"web/simple_dart_form.html","message":"unable to open file \"web\\crud\\person_table.html\"","line":9,"charStart":223,"charEnd":275}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web/simple_dart_form.html","message":"custom element with tag name person-table not found.","line":18,"charStart":412,"charEnd":486}}]
+Total time spent on web/simple_dart_form.html                -- 388 ms
+Total time                                                   -- 444 ms
+build.dart finished [827 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_edit.dart
+[{"method":"error","params":{"file":"web/simple_dart_form.html","message":"unable to open file \"web\\crud\\person_table.html\"","line":9,"charStart":223,"charEnd":275}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web/simple_dart_form.html","message":"custom element with tag name person-table not found.","line":18,"charStart":412,"charEnd":486}}]
+Total time spent on web/simple_dart_form.html                -- 394 ms
+Total time                                                   -- 446 ms
+build.dart finished [806 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.dart
+[{"method":"error","params":{"file":"web/simple_dart_form.html","message":"unable to open file \"web\\crud\\person_table.html\"","line":9,"charStart":223,"charEnd":275}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web/simple_dart_form.html","message":"custom element with tag name person-table not found.","line":18,"charStart":412,"charEnd":486}}]
+Total time spent on web/simple_dart_form.html                -- 394 ms
+Total time                                                   -- 445 ms
+build.dart finished [805 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.html
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"error","params":{"file":"web\\crud\\contact_edit.html","message":"unable to open file \"web\\crud\\person_edit.dart\"","line":33,"charStart":1017,"charEnd":1072}}]
+[{"method":"warning","params":{"file":"web\\crud\\contact_table.html","message":"custom element with tag name contact-add not found.","line":13,"charStart":300,"charEnd":357}}]
+[{"method":"error","params":{"file":"web\\crud\\contact_add.html","message":"please provide a class definition for PersonAdd:\n import 'dart:html';\n\nimport 'package:simple_dart_form/simple_contact_form.dart';\nimport 'package:web_ui/web_ui.dart';\n\nclass ContactAdd extends WebComponent {\n  ContactList contactlist;\n\n  add() {\n    InputElement nom = query(\"#ajouter-nom\");\n    InputElement prenom = query(\"#ajouter-prenom\");\n    InputElement email = query(\"#ajouter-email\");\n    TextAreaElement adresse = query(\"#ajouter-adresse\");\n    Element message = query(\"#ajouter-message\");\n    var error = false;\n    message.text = '';\n    if (nom.value.trim() == '' || prenom.value.trim() == '' || email.value.trim() == '' || adresse.value.trim() == '' ) {\n      message.text = 'champs Obligatoire; ${message.text}';\n      error = true;\n    }\n    \n    if (!error) {\n      var contact = new Contact();\n      contact.idContact=(nom.value + prenom.value).trim();\n      contact.nom = nom.value;\n      contact.prenom = prenom.value;\n      contact.email = email.value;\n      contact.adresse = adresse.value;\n      if (contactlist.add(contact)) {\n        message.text = 'Contact ajouté';\n        var contactTable = query('#contact-table').xtag;\n        contactTable.showAddContact = false;\n        contactlist.order();\n      } else {\n        message.text = 'Contact existant';\n      }\n    }\n    \n  }\n}","line":9,"charStart":88,"charEnd":130}}]
+Total time spent on web/simple_dart_form.html                -- 466 ms
+Total time                                                   -- 522 ms
+build.dart finished [891 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.dart
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_dart_form.dart\"","line":5,"charStart":85,"charEnd":141}}]
+[{"method":"error","params":{"file":"web\\crud\\contact_edit.html","message":"unable to open file \"web\\crud\\person_edit.dart\"","line":33,"charStart":1017,"charEnd":1072}}]
+[{"method":"error","params":{"file":"web\\crud\\contact_table.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":3,"charStart":21,"charEnd":80}}]
+[{"method":"warning","params":{"file":"web\\crud\\contact_table.html","message":"custom element with tag name contact-add not found.","line":13,"charStart":300,"charEnd":357}}]
+[{"method":"error","params":{"file":"web\\crud\\contact_add.html","message":"please provide a class definition for PersonAdd:\n import 'dart:html';\n\nimport 'package:simple_dart_form/simple_contact_form.dart';\nimport 'package:web_ui/web_ui.dart';\n\nclass ContactAdd extends WebComponent {\n  ContactList contactlist;\n\n  add() {\n    InputElement nom = query(\"#ajouter-nom\");\n    InputElement prenom = query(\"#ajouter-prenom\");\n    InputElement email = query(\"#ajouter-email\");\n    TextAreaElement adresse = query(\"#ajouter-adresse\");\n    Element message = query(\"#ajouter-message\");\n    var error = false;\n    message.text = '';\n    if (nom.value.trim() == '' || prenom.value.trim() == '' || email.value.trim() == '' || adresse.value.trim() == '' ) {\n      message.text = 'champs Obligatoire; ${message.text}';\n      error = true;\n    }\n    \n    if (!error) {\n      var contact = new Contact();\n      contact.idContact=(nom.value + prenom.value).trim();\n      contact.nom = nom.value;\n      contact.prenom = prenom.value;\n      contact.email = email.value;\n      contact.adresse = adresse.value;\n      if (contactlist.add(contact)) {\n        message.text = 'Contact ajouté';\n        var contactTable = query('#contact-table').xtag;\n        contactTable.showAddContact = false;\n        contactlist.order();\n      } else {\n        message.text = 'Contact existant';\n      }\n    }\n    \n  }\n}","line":9,"charStart":88,"charEnd":130}}]
+Total time spent on web/simple_dart_form.html                -- 468 ms
+Total time                                                   -- 526 ms
+build.dart finished [870 ms]
+
+---
+build.dart --machine --changed=web\simple_dart_form.dart
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"error","params":{"file":"web\\crud\\contact_edit.html","message":"unable to open file \"web\\crud\\person_edit.dart\"","line":33,"charStart":1017,"charEnd":1072}}]
+[{"method":"warning","params":{"file":"web\\crud\\contact_table.html","message":"custom element with tag name contact-add not found.","line":13,"charStart":300,"charEnd":357}}]
+[{"method":"error","params":{"file":"web\\crud\\contact_add.html","message":"please provide a class definition for PersonAdd:\n import 'dart:html';\n\nimport 'package:simple_dart_form/simple_contact_form.dart';\nimport 'package:web_ui/web_ui.dart';\n\nclass ContactAdd extends WebComponent {\n  ContactList contactlist;\n\n  add() {\n    InputElement nom = query(\"#ajouter-nom\");\n    InputElement prenom = query(\"#ajouter-prenom\");\n    InputElement email = query(\"#ajouter-email\");\n    TextAreaElement adresse = query(\"#ajouter-adresse\");\n    Element message = query(\"#ajouter-message\");\n    var error = false;\n    message.text = '';\n    if (nom.value.trim() == '' || prenom.value.trim() == '' || email.value.trim() == '' || adresse.value.trim() == '' ) {\n      message.text = 'champs Obligatoire; ${message.text}';\n      error = true;\n    }\n    \n    if (!error) {\n      var contact = new Contact();\n      contact.idContact=(nom.value + prenom.value).trim();\n      contact.nom = nom.value;\n      contact.prenom = prenom.value;\n      contact.email = email.value;\n      contact.adresse = adresse.value;\n      if (contactlist.add(contact)) {\n        message.text = 'Contact ajouté';\n        var contactTable = query('#contact-table').xtag;\n        contactTable.showAddContact = false;\n        contactlist.order();\n      } else {\n        message.text = 'Contact existant';\n      }\n    }\n    \n  }\n}","line":9,"charStart":88,"charEnd":130}}]
+Total time spent on web/simple_dart_form.html                -- 460 ms
+Total time                                                   -- 523 ms
+build.dart finished [888 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_edit.html
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+[{"method":"warning","params":{"file":"web\\crud\\contact_table.html","message":"custom element with tag name contact-add not found.","line":13,"charStart":300,"charEnd":357}}]
+[{"method":"error","params":{"file":"web\\crud\\contact_add.html","message":"please provide a class definition for PersonAdd:\n import 'dart:html';\n\nimport 'package:simple_dart_form/simple_contact_form.dart';\nimport 'package:web_ui/web_ui.dart';\n\nclass ContactAdd extends WebComponent {\n  ContactList contactlist;\n\n  add() {\n    InputElement nom = query(\"#ajouter-nom\");\n    InputElement prenom = query(\"#ajouter-prenom\");\n    InputElement email = query(\"#ajouter-email\");\n    TextAreaElement adresse = query(\"#ajouter-adresse\");\n    Element message = query(\"#ajouter-message\");\n    var error = false;\n    message.text = '';\n    if (nom.value.trim() == '' || prenom.value.trim() == '' || email.value.trim() == '' || adresse.value.trim() == '' ) {\n      message.text = 'champs Obligatoire; ${message.text}';\n      error = true;\n    }\n    \n    if (!error) {\n      var contact = new Contact();\n      contact.idContact=(nom.value + prenom.value).trim();\n      contact.nom = nom.value;\n      contact.prenom = prenom.value;\n      contact.email = email.value;\n      contact.adresse = adresse.value;\n      if (contactlist.add(contact)) {\n        message.text = 'Contact ajouté';\n        var contactTable = query('#contact-table').xtag;\n        contactTable.showAddContact = false;\n        contactlist.order();\n      } else {\n        message.text = 'Contact existant';\n      }\n    }\n    \n  }\n}","line":9,"charStart":88,"charEnd":130}}]
+Total time spent on web/simple_dart_form.html                -- 458 ms
+Total time                                                   -- 509 ms
+build.dart finished [867 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_add.html
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 472 ms
+Total time                                                   -- 525 ms
+build.dart finished [882 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 465 ms
+Total time                                                   -- 517 ms
+build.dart finished [922 ms]
+
+---
+build.dart --machine --changed=test\model\person_entities_test.dart
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 477 ms
+Total time                                                   -- 538 ms
+build.dart finished [1004 ms]
+
+---
+build.dart --machine --changed=test\model\contact_entities_test.dart --removed=test\model\person_entities_test....
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 508 ms
+Total time                                                   -- 579 ms
+build.dart finished [987 ms]
+
+---
+build.dart --machine --changed=test\model\model_test.dart --removed=test\model\form_model_test.dart
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 471 ms
+Total time                                                   -- 523 ms
+build.dart finished [882 ms]
+
+---
+build.dart --machine --changed=lib\model\contact_model.dart --removed=lib\model\contact_form_model.dart
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 462 ms
+Total time                                                   -- 518 ms
+build.dart finished [918 ms]
+
+---
+build.dart --machine --changed=lib\model\contact_entities.dart --removed=lib\model\person_entities.dart
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 457 ms
+Total time                                                   -- 509 ms
+build.dart finished [859 ms]
+
+---
+build.dart --machine --full
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 458 ms
+Total time                                                   -- 509 ms
+build.dart finished [859 ms]
+
+---
+build.dart --machine --full
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\dartlero\\dartlero.dart\"","line":4,"charStart":44,"charEnd":84}}]
+[{"method":"error","params":{"file":"web\\simple_dart_form.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":5,"charStart":85,"charEnd":144}}]
+Total time spent on web/simple_dart_form.html                -- 642 ms
+Total time                                                   -- 727 ms
+build.dart finished [1374 ms]
+
+---
+build.dart --machine --changed=web\dart_form.dart --removed=web\simple_dart_form.dart
+[{"method":"error","params":{"file":"web/simple_dart_form.html","message":"unable to open file \"web\\simple_dart_form.dart\"","line":23,"charStart":525,"charEnd":585}}]
+[{"method":"error","params":{"file":"web\\crud\\contact_table.dart","message":"unable to open file \"web\\packages\\simple_dart_form\\simple_contact_form.dart\"","line":3,"charStart":21,"charEnd":80}}]
+Total time spent on web/simple_dart_form.html                -- 448 ms
+Total time                                                   -- 523 ms
+build.dart finished [897 ms]
+
+---
+build.dart --machine --changed=web\web_form.html --removed=web\simple_dart_form.html
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  33 ms
+Total time                                                   --  90 ms
+build.dart finished [472 ms]
+
+---
+build.dart --machine --changed=web\web_form.dart --removed=web\dart_form.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  31 ms
+Total time                                                   --  92 ms
+build.dart finished [470 ms]
+
+---
+build.dart --machine --changed=web\web_form.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  28 ms
+Total time                                                   --  81 ms
+build.dart finished [443 ms]
+
+---
+build.dart --machine --changed=web\css\web_form.css --removed=web\css\simple_dart_form.css
+Total time                                                   --  45 ms
+build.dart finished [406 ms]
+
+---
+build.dart --machine --removed=web\css\style.css
+Total time                                                   --  45 ms
+build.dart finished [393 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_table.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  27 ms
+Total time                                                   --  81 ms
+build.dart finished [468 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_edit.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  29 ms
+Total time                                                   --  84 ms
+build.dart finished [462 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_add.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  31 ms
+Total time                                                   --  85 ms
+build.dart finished [431 ms]
+
+---
+build.dart --machine --changed=test\model\model_test.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  35 ms
+Total time                                                   --  87 ms
+build.dart finished [432 ms]
+
+---
+build.dart --machine --changed=README.md --changed=lib\contact.dart --changed=test\model\contact_entities_test....
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  49 ms
+Total time                                                   -- 150 ms
+build.dart finished [511 ms]
+
+---
+build.dart --machine --changed=web\web_form.html
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  29 ms
+Total time                                                   --  89 ms
+build.dart finished [460 ms]
+
+---
+build.dart --machine --changed=test\model\contact_entities_test.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  35 ms
+Total time                                                   --  87 ms
+build.dart finished [441 ms]
+
+---
+build.dart --machine --changed=test\model\model_test.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  29 ms
+Total time                                                   --  87 ms
+build.dart finished [453 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  73 ms
+build.dart finished [608 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   --  46 ms
+build.dart finished [393 ms]
+
+---
+build.dart --machine --full
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  30 ms
+Total time                                                   --  92 ms
+build.dart finished [474 ms]
+
+---
+build.dart --machine --full
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  27 ms
+Total time                                                   --  80 ms
+build.dart finished [421 ms]
+
+---
+build.dart --machine --changed=lib\model\contact_entities.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  32 ms
+Total time                                                   --  91 ms
+build.dart finished [445 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_add.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  27 ms
+Total time                                                   --  80 ms
+build.dart finished [459 ms]
+
+---
+build.dart --machine --changed=lib\model\contact_model.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  33 ms
+Total time                                                   -- 102 ms
+build.dart finished [533 ms]
+
+---
+build.dart --machine --changed=lib\model\contact_model.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  27 ms
+Total time                                                   --  81 ms
+build.dart finished [463 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_table.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  26 ms
+Total time                                                   --  79 ms
+build.dart finished [452 ms]
+
+---
+build.dart --machine --changed=lib\model\contact_model.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  26 ms
+Total time                                                   --  80 ms
+build.dart finished [461 ms]
+
+---
+build.dart --machine --full
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  26 ms
+Total time                                                   --  77 ms
+build.dart finished [426 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_table.html
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  31 ms
+Total time                                                   --  89 ms
+build.dart finished [452 ms]
+
+---
+build.dart --machine --changed=lib\contact.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  29 ms
+Total time                                                   --  90 ms
+build.dart finished [490 ms]
+
+---
+build.dart --machine --full
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  27 ms
+Total time                                                   --  78 ms
+build.dart finished [416 ms]
+
+---
+build.dart --machine --changed=web\web_form.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  27 ms
+Total time                                                   --  82 ms
+build.dart finished [457 ms]
+
+---
+build.dart --machine --changed=web\web_form.html
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  27 ms
+Total time                                                   --  79 ms
+build.dart finished [443 ms]
+
+---
+build.dart --machine --changed=test\model\model_test.dart
+error unable to open file "web/simple_dart_form.html"
+Total time spent on web/simple_dart_form.html                --  27 ms
+Total time                                                   --  84 ms
+build.dart finished [521 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   --  59 ms
+build.dart finished [510 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Do not know how to load 'dart:uri''package:web_ui/src/info.dart': Error: line 12 pos 1: library handler failed
+import 'dart:uri';
+^
+'package:web_ui/src/directive_parser.dart': Error: line 11 pos 1: library handler failed
+import 'info.dart' show DartCodeInfo, DartDirectiveInfo;
+^
+'package:web_ui/src/analyzer.dart': Error: line 14 pos 1: library handler failed
+import 'directive_parser.dart' show parseDartCode;
+^
+'package:web_ui/src/compiler.dart': Error: line 11 pos 1: library handler failed
+import 'analyzer.dart';
+^
+'package:web_ui/dwc.dart': Error: line 10 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 25 pos 1: library handler failed
+import 'package:web_ui/dwc.dart' as dwc;
+^
+'file:///C:/Git/dart/gestion_contacts/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [277 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Do not know how to load 'dart:uri''package:web_ui/src/info.dart': Error: line 12 pos 1: library handler failed
+import 'dart:uri';
+^
+'package:web_ui/src/directive_parser.dart': Error: line 11 pos 1: library handler failed
+import 'info.dart' show DartCodeInfo, DartDirectiveInfo;
+^
+'package:web_ui/src/analyzer.dart': Error: line 14 pos 1: library handler failed
+import 'directive_parser.dart' show parseDartCode;
+^
+'package:web_ui/src/compiler.dart': Error: line 11 pos 1: library handler failed
+import 'analyzer.dart';
+^
+'package:web_ui/dwc.dart': Error: line 10 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 25 pos 1: library handler failed
+import 'package:web_ui/dwc.dart' as dwc;
+^
+'file:///C:/Git/dart/gestion_contacts/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [146 ms]
+
+---
+build.dart --machine --changed=web\web_form.dart
+Do not know how to load 'dart:uri''package:web_ui/src/info.dart': Error: line 12 pos 1: library handler failed
+import 'dart:uri';
+^
+'package:web_ui/src/directive_parser.dart': Error: line 11 pos 1: library handler failed
+import 'info.dart' show DartCodeInfo, DartDirectiveInfo;
+^
+'package:web_ui/src/analyzer.dart': Error: line 14 pos 1: library handler failed
+import 'directive_parser.dart' show parseDartCode;
+^
+'package:web_ui/src/compiler.dart': Error: line 11 pos 1: library handler failed
+import 'analyzer.dart';
+^
+'package:web_ui/dwc.dart': Error: line 10 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 25 pos 1: library handler failed
+import 'package:web_ui/dwc.dart' as dwc;
+^
+'file:///C:/Git/dart/gestion_contacts/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [233 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Do not know how to load 'dart:uri''package:web_ui/src/info.dart': Error: line 12 pos 1: library handler failed
+import 'dart:uri';
+^
+'package:web_ui/src/directive_parser.dart': Error: line 11 pos 1: library handler failed
+import 'info.dart' show DartCodeInfo, DartDirectiveInfo;
+^
+'package:web_ui/src/analyzer.dart': Error: line 14 pos 1: library handler failed
+import 'directive_parser.dart' show parseDartCode;
+^
+'package:web_ui/src/compiler.dart': Error: line 11 pos 1: library handler failed
+import 'analyzer.dart';
+^
+'package:web_ui/dwc.dart': Error: line 10 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 25 pos 1: library handler failed
+import 'package:web_ui/dwc.dart' as dwc;
+^
+'file:///C:/Git/dart/gestion_contacts/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [215 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":"web/web_form.html","message":"unable to open file \"web\\css\\web_form\"","line":8,"charStart":164,"charEnd":209}}]
+[{"method":"error","params":{"file":"web\\web_form.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":5,"charStart":85,"charEnd":125}}]
+Total time spent on web/web_form.html                        -- 855 ms
+Total time                                                   -- 948 ms
+build.dart finished [1675 ms]
+
+---
+build.dart --machine --changed=test\model\contact_entities_test.dart
+[{"method":"warning","params":{"file":"web/web_form.html","message":"unable to open file \"web\\css\\web_form\"","line":8,"charStart":164,"charEnd":209}}]
+[{"method":"error","params":{"file":"web\\web_form.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":5,"charStart":85,"charEnd":125}}]
+Total time spent on web/web_form.html                        -- 365 ms
+Total time                                                   -- 423 ms
+build.dart finished [794 ms]
+
+---
+build.dart --machine --changed=web\web_form.html
+[{"method":"error","params":{"file":"web\\web_form.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":5,"charStart":85,"charEnd":125}}]
+Total time spent on web/web_form.html                        -- 459 ms
+Total time                                                   -- 513 ms
+build.dart finished [877 ms]
+
+---
+build.dart --machine --changed=web\web_form.html
+[{"method":"error","params":{"file":"web\\web_form.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":5,"charStart":85,"charEnd":125}}]
+Total time spent on web/web_form.html                        -- 439 ms
+Total time                                                   -- 494 ms
+build.dart finished [871 ms]
+
+---
+build.dart --machine --changed=test\model\contact_entities_test.dart
+[{"method":"error","params":{"file":"web\\web_form.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":5,"charStart":85,"charEnd":125}}]
+Total time spent on web/web_form.html                        -- 441 ms
+Total time                                                   -- 497 ms
+build.dart finished [865 ms]
+
+---
+build.dart --machine --changed=web\web_form.dart
+[{"method":"error","params":{"file":"web\\web_form.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":5,"charStart":85,"charEnd":125}}]
+[{"method":"error","params":{"file":"web\\web_form.dart","message":"unable to open file \"web\\C:\\Git\\dart\\gestion_contacts\\test\\packages\\web_form\\contact.dart\"","line":7,"charStart":163,"charEnd":238}}]
+Total time spent on web/web_form.html                        -- 475 ms
+Total time                                                   -- 530 ms
+build.dart finished [888 ms]
+
+---
+build.dart --machine --changed=web\web_form.dart
+[{"method":"error","params":{"file":"web\\web_form.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":5,"charStart":85,"charEnd":125}}]
+Total time spent on web/web_form.html                        -- 475 ms
+Total time                                                   -- 529 ms
+build.dart finished [891 ms]
+
+---
+build.dart --machine --changed=test\model\contact_entities_test.dart
+[{"method":"error","params":{"file":"web\\web_form.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":5,"charStart":85,"charEnd":125}}]
+Total time spent on web/web_form.html                        -- 475 ms
+Total time                                                   -- 529 ms
+build.dart finished [913 ms]
+
+---
+build.dart --machine --removed=test\model\contact_entities_test.dart --removed=test\model\model_test.dart
+[{"method":"error","params":{"file":"web\\web_form.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":5,"charStart":85,"charEnd":125}}]
+Total time spent on web/web_form.html                        -- 487 ms
+Total time                                                   -- 546 ms
+build.dart finished [935 ms]
+
+---
+build.dart --machine --changed=web\web_form.dart
+[{"method":"error","params":{"file":"web\\crud\\contact_table.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":3,"charStart":21,"charEnd":61}}]
+Total time spent on web/web_form.html                        -- 446 ms
+Total time                                                   -- 497 ms
+build.dart finished [865 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_add.dart
+[{"method":"error","params":{"file":"web\\crud\\contact_table.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":3,"charStart":21,"charEnd":61}}]
+Total time spent on web/web_form.html                        -- 638 ms
+Total time                                                   -- 692 ms
+build.dart finished [1190 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_table.dart
+[{"method":"error","params":{"file":"web\\crud\\contact_edit.dart","message":"unable to open file \"web\\packages\\web_form\\web_form.dart\"","line":3,"charStart":21,"charEnd":61}}]
+Total time spent on web/web_form.html                        -- 443 ms
+Total time                                                   -- 496 ms
+build.dart finished [861 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_edit.dart
+Total time spent on web/web_form.html                        -- 671 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\web_form.css"}}]
+[{"method":"mapping","params":{"from":"web/web_form.html","to":"web\\out\\web_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html"}}]
+Total time                                                   -- 726 ms
+build.dart finished [1089 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/web_form.html                        -- 566 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\web_form.css"}}]
+[{"method":"mapping","params":{"from":"web/web_form.html","to":"web\\out\\web_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html"}}]
+Total time                                                   -- 619 ms
+build.dart finished [1400 ms]
+
+---
+build.dart --machine --changed=web\css\web_form.css
+Total time                                                   --  50 ms
+build.dart finished [578 ms]
+
+---
+build.dart --machine --changed=web\css\web_form.css
+Total time                                                   --  46 ms
+build.dart finished [415 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  45 ms
+build.dart finished [430 ms]
+

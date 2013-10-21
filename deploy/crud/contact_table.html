@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Contact table</title>
+    <link rel="import" href="contact_add.html">
+    <link rel="import" href="contact_edit.html">
+  </head>
+  <body>
+  <element name="contact-table" extends="span">
+      <template>
+        <div template if="showAddContact">
+          <contact-add
+            contactlist="{{ contactlist }}">
+          </contact-add>
+        </div>
+        <div template if="showEditContact">
+          <contact-edit
+            contactlist="{{ contactlist }}"
+            contact="{{ contact }}">
+          </contact-edit>
+        </div>
+        <table>
+          <caption class="marker">
+            <button id="addContactButton" on-click="add()">Ajouter un contact</button>
+            Contact List
+          </caption>
+          <tr>
+          
+            <th>Nom</th>
+            <th>Prenom</th>
+            <th>Email</th>
+            <th>Edit</th>
+            <th>Remove</th>
+            
+          </tr>
+          <tbody template repeat="contact in contactlist.internalList">
+            <tr>
+              <td>{{ contact.nom }}</td>
+              <td>{{ contact.prenom }}</td>
+              <td>{{ contact.email }}</td>
+              <td><button on-click="edit(contact)">Edit</button></td>
+              <td><button on-click="delete(contact)">Remove</button></td>
+            </tr>
+          </tbody>
+        </table>
+        <br/>
+      </template>
+
+    <script type="application/dart" src="contact_table.dart"></script>
+  </element>  
+  </body>
+</html>

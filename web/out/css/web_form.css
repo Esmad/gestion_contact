@@ -1,0 +1,83 @@
+/* Auto-generated from style sheet href = web\css\web_form.css */
+/* DO NOT EDIT. */
+
+body {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 12px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+section {
+  padding: 5px;
+}
+p {
+  line-height: 1.5em;
+  text-align: justify;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.page-title {
+  font-family: arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #036;
+  padding: 12px;
+}
+label {
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #336799;
+  padding: 1px;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+input {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+table {
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
+  border-collapse: collapse;
+}
+caption {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #036;
+  padding: 1px;
+}
+th, td {
+  padding: 1px;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+th {
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #336799;
+}
+td {
+  background: #ffe4b5;
+}
+button {
+  padding: 1px;
+  background: #fc9;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  border-style: outset;
+  border-color: #d7b9c9;
+  font-weight: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+button:active {
+  background: #ff4500;
+  border-color: #00f;
+}
+

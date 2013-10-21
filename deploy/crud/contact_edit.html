@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>contact_edit</title>
+  </head>
+ 
+  <body>   
+      <element name="contact-edit" extends="span">
+        <template>
+        <div>
+          <br/>
+          <label for="editer-nom">Name</label>
+          <input id="editer-nom" type="text" size="32" value="{{ contact.nom }}"/>
+          <br/>
+          <label for="editer-prenom">prenom</label>
+          <input id="editer-prenom" type="text" size="32" value="{{ contact.prenom }}"/>
+          <br/>
+          <br/>
+          <label for="editer-email">Email</label>
+          <input id="editer-email" type="text" size="32" value="{{ contact.email }}"/>
+          <br/>
+          <br/>
+          <label for="editer-adresse">Adresse</label>
+          <textarea id="editer-adresse" rows="4" cols="30" value="{{ contact.adresse }}"></textarea>
+          <br/>
+          <button on-click="update()">Miseajour</button>
+           <span id="editer-message"></span>
+        </div>
+      </template>
+  
+    <script type="application/dart" src="contact_edit.dart"></script>
+      </element>
+  </body>
+</html>

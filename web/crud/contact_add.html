@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Ajouter un contact</title>
+  </head>
+ 
+  <body>
+    <element name="contact-add" extends="span">
+      <template>
+        <div>
+          <br/>
+          <label for="ajouter-nom">Nom</label>
+          <input id="ajouter-nom" type="text" size="32" placeholder="Entrez votre nom"/>
+          <br/>
+          <label for="ajouter-prenom">prenom</label>
+          <input id="ajouter-prenom" type="text" size="32" placeholder="Entrez votre prenom"/>
+          <br/>
+          <br/>
+          <label for="ajouter-email">Email</label>
+          <input id="ajouter-email" type="text" size="32" placeholder="Entrez votre Email"/>
+          <br/>
+          <br/>
+          <label for="ajouter-adresse">Adresse</label>
+          <textarea id="ajouter-adresse" rows="4" cols="30" placeholder="Entrez votre Adresse"></textarea>
+          <br/>
+
+          <button on-click="add()">Ajouter</button>
+          <span id="ajouter-message"></span>
+        </div>
+      </template>
+      <script type="application/dart" src="contact_add.dart"></script>
+    </element>
+  </body>
+</html>

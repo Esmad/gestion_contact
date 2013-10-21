@@ -1,0 +1,13 @@
+
+custom elements
+https://www.dartlang.org/polymer-dart/
+
+http://soat.developpez.com/tutoriels/dart/dart-manuel-reference/
+https://www.dartlang.org/docs/tutorials/add-elements/
+https://www.dartlang.org/docs/dart-up-and-running/contents/ch03.html
+
+https://code.google.com/p/dart/issues/detail?id=12262
+
+http://blog.sethladd.com/2013/06/forms-http-servers-and-web-components.html
+
+https://www.dartlang.org/docs/tutorials/forms/

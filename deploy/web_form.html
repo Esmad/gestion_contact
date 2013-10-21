@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple dart form</title>
+   <!--   <link rel="stylesheet" href="./css/web_form.css"> -->
+    <link rel="stylesheet" href="./css/web_form">
+    <link rel="import" href="./crud/contact_table.html"/>
+  </head>
+
+  <body>
+    <div class="page-title">
+      Formulaire
+      <button on-click="save()">Sauvegarder</button>
+    </div>
+
+    <contact-table
+      id="contact-table"
+      contactlist="{{ contactlist }}">
+    </contact-table>
+
+    <script type="application/dart" src="web_form.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
