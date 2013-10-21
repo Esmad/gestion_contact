@@ -20,23 +20,23 @@ p {
 }
 .page-title {
   font-family: arial, sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
-  color: #036;
+  color: #655;
   padding: 12px;
 }
 label {
   font-family: verdana, sans-serif;
   font-weight: bold;
   color: #fff;
-  background: #336799;
+  background: #336800;
   padding: 1px;
   border-right: 1px solid #999;
   border-bottom: 1px solid #999;
 }
 input {
   font-family: arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 table {
   border-top: 1px solid #999;
@@ -77,7 +77,7 @@ button {
   margin-right: auto;
 }
 button:active {
-  background: #ff4500;
+  background: #808080;
   border-color: #00f;
 }
 

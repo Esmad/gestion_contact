@@ -2683,3 +2683,75 @@ build.dart --machine --changed=pubspec.lock
 Total time                                                   --  45 ms
 build.dart finished [430 ms]
 
+---
+build.dart --machine --changed=web\crud\contact_edit.dart
+Total time spent on web/web_form.html                        -- 567 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\web_form.css"}}]
+[{"method":"mapping","params":{"from":"web/web_form.html","to":"web\\out\\web_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html"}}]
+Total time                                                   -- 620 ms
+build.dart finished [1005 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_edit.dart
+Total time spent on web/web_form.html                        -- 571 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\web_form.css"}}]
+[{"method":"mapping","params":{"from":"web/web_form.html","to":"web\\out\\web_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html"}}]
+Total time                                                   -- 629 ms
+build.dart finished [1011 ms]
+
+---
+build.dart --machine --changed=web\crud\contact_edit.html
+Total time spent on web/web_form.html                        -- 549 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\web_form.css"}}]
+[{"method":"mapping","params":{"from":"web/web_form.html","to":"web\\out\\web_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html"}}]
+Total time                                                   -- 605 ms
+build.dart finished [986 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/web_form.html                        -- 939 ms
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_table.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_add.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\crud\\contact_edit.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\css\\web_form.css"}}]
+[{"method":"mapping","params":{"from":"web/web_form.html","to":"web\\out\\web_form.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\web_form.html"}}]
+Total time                                                   -- 1005 ms
+build.dart finished [1867 ms]
+
