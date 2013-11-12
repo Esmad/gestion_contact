@@ -1,0 +1,9 @@
+ex06
+
+?/10
+
+Web UI?
+
+couleur rouge:
+Breaking on exception: 'http://127.0.0.1:3030/gestion_contact/web/out/web_form.dart': 
+Error: line 39 pos 21: type 'ContactForm' is not loaded
