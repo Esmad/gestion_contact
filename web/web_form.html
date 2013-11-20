@@ -11,13 +11,43 @@
   <body>
     <div class="page-title">
       Formulaire
-      <button on-click="save()">Sauvegarder</button>
+      <button on-click="save()">Enregistrer</button>
     </div>
+    
 
     <contact-table
       id="contact-table"
-      contactlist="{{ contactlist }}">
+      contactlist="{{ contactlist }}"   contact="{{contact}}>
     </contact-table>
+    
+    <br/>
+    <label  for="ajouter-nom">nom</label>
+    <input id="ajouter-nom" type="text" size="32"/>
+    <br/>
+    <label for="ajouter-prenom">prenom</label>
+    <input id="ajouter-prenom" type="text" size="32"/>
+    <br/>
+     <label for="ajouter-email">email</label>
+    <input id="ajouter-email" type="email"  placeholder="exemple@domaine.com"  size="32"/>
+    <br/>
+    <button on-click="{{add}}">Ajouter</button>
+    <span id="ajouter-message"></span>
+  </template>
+  <br/>
+  <br/>
+  
+  <li>
+  <nom> Jim</nom>
+  <prenom> Jimmy</prenom>
+  <email> jjimmy@yahoo.ca</email>
+  <br/>
+  
+  <li>
+  <nom>Alice</nom>
+  <prenom>Bertrand</prenom>
+  <email>abertrand@gmail.com</email>
+  
+<script type="application/dart" src="contact_add.dart"></script>
 
     <script type="application/dart" src="web_form.dart"></script>
     <script src="packages/browser/dart.js"></script>
