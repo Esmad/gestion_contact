@@ -2,7 +2,7 @@ import 'dart:html';
 import 'dart:convert';
 
 import 'package:dartlero/dartlero.dart';
-import 'package:web_form/web_form.dart';
+import 'package:web_form/contact.dart';
 import 'package:web_ui/web_ui.dart';
 
 ContactForm contactForm;
